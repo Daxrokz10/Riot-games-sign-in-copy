@@ -1,0 +1,58 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+header img{
+    margin: 40px;
+}
+body{
+    background-image: url(./jett_bg_img.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+}
+.signin{
+    width: 410px;
+    height: 550px;
+    background-color: white;
+    margin: auto;
+}
+h2{
+    font-weight: 500;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+input{
+    margin-left: 60px;
+    background-color: #f8f8f8;
+    border: 0px;
+    height: 45px;
+    width: 270px;
+}
+.textin{
+    margin-top: 10px;
+}
+.passwordin{
+    margin-top: 20px;
+}
+input::placeholder{
+    padding-right: -40px;
+    color: #4d4d4d;
+    font-weight: bold;
+    font-size: 14px;
+}
+.images{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.checkbox{
+    height: 18px;
+    margin-left: -70px;
+}
+span{
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: -120px;
+}
